@@ -1,0 +1,346 @@
+.main {
+background-color: blue;
+background-image:src="https://images.pexels.com/photos/2100553/pexels-photo-2100553.jpeg?auto=compress&cs=tinysrgb&w=400";
+background-position: -260px -40px;
+}
+
+
+.navbar-brand {
+width: 150px;
+}
+
+
+.logo-img {
+max-width: 100%;
+height: auto;
+}
+
+
+.sign-in-button {
+border: 1px solid white;
+padding: .5em 2.2em;
+font-size: .9rem;
+}
+
+
+.jumbotron-body {
+padding: 8em 14em;
+}
+
+
+.jumbotron-heading {
+font-size: 3rem;
+}
+
+
+.read-button {
+padding: 1em 2.3em;
+background: white;
+border: 1px solid white;
+font-size: 1.1rem;
+}
+
+
+.contact-button {
+padding: 1em 2.3em;
+font-size: 1.1rem;
+}
+.services-card-icon {
+max-width: 30%;
+height: auto;
+}
+
+
+.services-section {
+background: #f9f8f8;
+padding: 6em 0;
+}
+
+
+.our-services-heading {
+padding: .5em 1.3em;
+background: #E5EBF7;
+color: #3375EC;
+font-size: .75rem;
+}
+
+
+.card-title-services {
+font-size: 1.6rem;
+}
+
+
+.card-text-services {
+font-size: 1rem;
+}
+
+
+.about-us-section {
+background: purple;
+padding: 8em 0;
+}
+
+
+.about-us-heading {
+padding: .5em 1.3em;
+background: rgba(255, 255, 255, 0.2);
+color: #fff;
+font-size: .75rem;
+}
+
+
+.about-us-card {
+background: transparent;
+}
+
+
+.card-body h5 {
+font-size: 2.6rem;
+}
+
+
+.card-subtitle-text {
+color: #8491A5;
+}
+
+
+.read-more-button {
+padding: .8em 2em;
+background: white;
+border: 1px solid white;
+font-size: 1.1rem;
+}
+
+
+.about-us-section .card-in-about-section {
+padding-left: 6em;
+}
+
+
+.why-us-section {
+padding: 8em 0;
+}
+
+
+.latest-projects-section {
+background-color:green ;
+}
+
+.latest-projects-section .card-subtitle-text {
+font-size: 1.1rem;
+}
+
+
+.latest-projects-section .card {
+margin-left: 48em;
+}
+
+
+.team-members {
+font-size: 1.5rem;
+}
+
+
+.inside-div {
+display: none;
+}
+
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+/* background: saddlebrown; */
+width: 18%;
+transition: .5s ease;
+overflow: hidden;
+/* padding: 1.4em 1em; */
+}
+
+
+.card-container:hover .overlay {
+width: 100%;
+height: 38%;
+}
+
+
+.card-container:hover .inside-div {
+display: inline;
+}
+
+
+.card-container:hover .dotted-arrow {
+position: absolute;
+right: 0;
+top: 0;
+padding: .8em;
+}
+
+
+.horizontal-rule-faq {
+margin-left: -21em;
+border: 2px solid #3375EC;
+width: 65px;
+}
+
+
+/* .faq-general {
+border-bottom: 2px solid blue;
+} */
+
+
+.faq-section {
+background: #f9f8f8;
+padding: 5em 10.5em;
+}
+
+
+.faq-head {
+font-size: 1.3rem;
+border-bottom: 1px solid #ddd;
+width: 16em;
+}
+.faqs {
+color: #0D6EFD;
+}
+
+
+.partners-section {
+background: #3375EC;
+padding: 5em 4em;
+}
+
+
+.partners-section-heading {
+padding: .5em 1.3em;
+background: rgba(255, 255, 255, 0.2);
+font-size: .75rem;
+}
+
+
+.partners-section-text {
+font-size: 2.6rem;
+letter-spacing: 2px;
+}
+
+
+.partner-logo {
+opacity: .3;
+transition: .4s ease;
+}
+
+
+.partner-logo:hover {
+opacity: 1;
+}
+
+
+.business-logo {
+max-width: 50%;
+height: auto;
+}
+.footer {
+padding: 5em 6em;
+}
+
+
+.footer-text-one {
+color: #8491A5;
+}
+
+
+.footer-sign-in-button {
+color: #8491A5;
+border-color: #cfd1d5;
+}
+
+
+.dot {
+height: 30px;
+width: 30px;
+/* background-color: #55ACEE; */
+border-radius: 50%;
+display: inline-block;
+}
+
+
+.footer-icon-twitter {
+background-color: #63C9EB;
+}
+
+
+.footer-icon-facebook {
+background-color: #4970BF;
+}
+
+
+.footer-icon-instagram {
+background-color: #FF6F80;
+}
+
+
+.detail-color {
+color: #8491A5;
+}
+.detail-header-color {
+font-weight: 400;
+font-size: 1.5rem;
+}
+
+
+.footer-hr {
+border: .5px solid #ece9e9;
+width: 100%;
+}
+
+
+.footer-copyright-text {
+color: #8491A5;
+}
+
+
+.my-button {
+padding: 1.4em 1.5em;
+text-align: left;
+background: #F9F8F8;
+border: 1px solid rgb(220, 217, 217);
+color: black;
+font-size: 1.4rem;
+margin-top: 2em;
+letter-spacing: .5px;
+border-radius: .6em;
+}
+
+
+.my-button:hover {
+background: #F9F8F8;
+color: black;
+border-color: rgb(220, 217, 217);
+}
+
+
+.down-arrow1 {
+padding-left: 7em;
+color: rgb(156, 153, 153);
+}
+
+
+.down-arrow2 {
+padding-left: 5.2em;
+color: rgb(156, 153, 153);
+}
+
+
+.down-arrow3 {
+padding-left: 2.3em;
+color: rgb(156, 153, 153);
+}
+
+
+.down-arrow4 {
+padding-left: 6.2em;
+color: rgb(156, 153, 153);
+}
+
+
